@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Abdul Aziz</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #e7ba26;
+            color: #000000;
+        }
+
+        header {
+            background: #3b3535;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            transition: background 0.3s ease;
+        }
+
+        header:hover {
+            background: #1a1010;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ff9900;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 50px 20px;
+            transition: background 0.3s ease;
+        }
+
+        .main-content:hover {
+            background: #e6e6e6;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.1);
+        }
+
+        .details {
+            margin-top: 20px;
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .btn {
+            background-color: #ff9900;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #e68a00;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Abdul Aziz's  Website</h1>
+        <nav>
+            <a href="page1.html">Home</a>
+            <a href="page2.html">Computer Parts</a>
+            <a href="page3.html">Gallery</a>
+            <a href="page4.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <h2>Hello, I'm Abdul Aziz!</h2>
+        <img src="D:\COURSE\HTML\azizHTML.html/me.jpg" alt="Abdul Aziz" class="profile-img">
+        <div class="details">
+            <p>A student of B.S SE at Abasyn University Peshawar</p>
+            <p>Address: Pakistan, KPK, Mardan, Takht Bhai</p>
+        </div>
+
+        <div class="btn-container">
+            <button class="btn" onclick="location.href='page2.html'">Explore Computer Parts</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Designed by Abdul Aziz</p>
+    </footer>
+
+</body>
+</html>
